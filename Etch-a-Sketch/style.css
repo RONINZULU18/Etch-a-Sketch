@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+    height: 100hv;
+    background-image: linear-gradient(to right, blue, aqua);
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid black;
+    width: 360px;
+}
+
+.grid-item {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+}
+
+.grid-item:hover {
+    background-color: black;
+}
+
+#butt {
+    margin-bottom: 10px;
+}
